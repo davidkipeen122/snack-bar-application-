@@ -1,0 +1,32 @@
+/ A POINT OF SALEFOR A SNACK SHOP
+#include <stdio.h>
+#include <math.h>
+int main() {
+    int item ; no of items; total amount ; amount of money ; change;
+    printf("todays menu\n");
+     printf("1. humbuger-ksh.50\n");
+      printf("2.samosa-ksh.50\n"); 
+      printf("3. smokie-ksh.40\n"); 
+      printf("4.milkshake-ksh.150\n");
+      printf("5.african tea-ksh.60\n");
+       printf("enter item number:\n");
+       scanf(" %d",&item);
+       printf("enter no of items:\n");
+        scanf(" %d",& no of item);
+       printf("total amount:\n");
+        scanf(" %d*%d",&item*& no of items);
+       printf("change:\n");
+        printf("enter amount of money:\n");
+       scanf(" %d-%d",&amount of money - total amount);
+       
+       if(item> 0&&item<=5){
+            printf("item added tocart\n");
+            
+       }
+       else{
+          printf("invalid term\n"); 
+       }
+       
+          
+    return item;
+}
